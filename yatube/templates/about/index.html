@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}
+Обо мне...
+{% endblock %}
+{% block content %}
+  <h1>Об авторе... <a href="{% url 'about:author' %}" class="btn btn-link">Об авторе</a></h1>
+  <p>Технологии... <a href="{% url 'about:tech' %}" class="btn btn-link">Технологии</a></p>
+{% endblock %}
